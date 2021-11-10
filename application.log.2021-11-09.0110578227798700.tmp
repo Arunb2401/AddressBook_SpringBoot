@@ -1,0 +1,236 @@
+2021-11-09 00:31:33.379  WARN 11284 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h29s351ms309µs700ns).
+2021-11-09 05:58:23.754  WARN 11284 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h27m8s593ms941µs800ns).
+2021-11-09 11:01:32.400 DEBUG 11284 --- [http-nio-8484-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/addressbookservice/", parameters={}
+2021-11-09 11:01:32.552 DEBUG 11284 --- [http-nio-8484-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.bridgelabz.addressbook_springboot.Controller.AddressBookController#getAddressBookData()
+2021-11-09 11:01:33.558 DEBUG 11284 --- [http-nio-8484-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/signed-exchange;v=b3;q=0.9, application/xml;q=0.9, */*;q=0.8] and supported [application/json, application/*+json]
+2021-11-09 11:01:33.677 DEBUG 11284 --- [http-nio-8484-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [ResponseDTO(message=GET call is Successful, data=[AddressbookData(personId=9, fullName=Arun Biradar, (truncated)...]
+2021-11-09 11:01:33.683 DEBUG 11284 --- [http-nio-8484-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-11-09 13:23:58.562  WARN 11284 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m32s252ms808µs900ns).
+2021-11-09 16:58:48.489  WARN 11284 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h37m19s631ms759µs600ns).
+2021-11-09 17:22:23.906  INFO 11284 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 17:22:24.849  INFO 11284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-09 17:22:25.129  INFO 11284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-09 17:23:06.399  INFO 7848 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Starting AddressBookSpringBootApplication using Java 11.0.12 on DESKTOP-K529ODC with PID 7848 (I:\WebDevlopment\Angular Development\AddressBook_SpringBoot\target\classes started by Arun in I:\WebDevlopment\Angular Development\AddressBook_SpringBoot)
+2021-11-09 17:23:06.409  INFO 7848 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : The following profiles are active: DEV
+2021-11-09 17:23:06.764  INFO 7848 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-09 17:23:09.580  INFO 7848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 17:23:09.590  INFO 7848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-11-09 17:23:09.732  INFO 7848 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook_springboot.Repository.AddressBookRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-11-09 17:23:09.732  INFO 7848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 136 ms. Found 0 JDBC repository interfaces.
+2021-11-09 17:23:09.762  INFO 7848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 17:23:09.762  INFO 7848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 17:23:09.876  INFO 7848 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2021-11-09 17:23:11.687  INFO 7848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+2021-11-09 17:23:11.727  INFO 7848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 17:23:11.727  INFO 7848 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 17:23:12.093  INFO 7848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-09 17:23:12.093  INFO 7848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5329 ms
+2021-11-09 17:23:12.153 DEBUG 7848 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-11-09 17:23:12.153 DEBUG 7848 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-11-09 17:23:12.784  INFO 7848 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 17:23:12.894  INFO 7848 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-09 17:23:13.248  INFO 7848 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-09 17:23:13.448  INFO 7848 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-09 17:23:14.776  INFO 7848 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-09 17:23:14.836  INFO 7848 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-09 17:23:18.057  INFO 7848 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 17:23:18.087  INFO 7848 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 17:23:19.505 DEBUG 7848 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-09 17:23:19.635 DEBUG 7848 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-11-09 17:23:19.716 DEBUG 7848 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-09 17:23:19.726 DEBUG 7848 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-09 17:23:19.816  WARN 7848 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-09 17:23:20.266  INFO 7848 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9ffef205-0661-42c3-9275-d65950944868
+
+2021-11-09 17:23:20.656  INFO 7848 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ad73446, org.springframework.security.web.context.SecurityContextPersistenceFilter@63e4af9b, org.springframework.security.web.header.HeaderWriterFilter@4027a4cc, org.springframework.security.web.csrf.CsrfFilter@7bfdcd87, org.springframework.security.web.authentication.logout.LogoutFilter@5c416a14, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31fa3b08, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@65eb8777, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@a2d39a1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@48ab060, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5abc591b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b0b9082, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5bf59134, org.springframework.security.web.session.SessionManagementFilter@29cb2610, org.springframework.security.web.access.ExceptionTranslationFilter@6a55bc75, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@632d9b07]
+2021-11-09 17:23:20.747  INFO 7848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-09 17:23:20.847  INFO 7848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+2021-11-09 17:23:20.907  INFO 7848 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Started AddressBookSpringBootApplication in 18.846 seconds (JVM running for 27.263)
+2021-11-09 17:27:48.899  INFO 7848 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 17:27:48.959  INFO 7848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-09 17:27:49.061  INFO 7848 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-09 17:28:02.850  INFO 10660 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Starting AddressBookSpringBootApplication using Java 11.0.12 on DESKTOP-K529ODC with PID 10660 (I:\WebDevlopment\Angular Development\AddressBook_SpringBoot\target\classes started by Arun in I:\WebDevlopment\Angular Development\AddressBook_SpringBoot)
+2021-11-09 17:28:02.850  INFO 10660 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : The following profiles are active: DEV
+2021-11-09 17:28:03.070  INFO 10660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-09 17:28:05.506  INFO 10660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 17:28:05.506  INFO 10660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-11-09 17:28:05.596  INFO 10660 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook_springboot.Repository.AddressBookRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-11-09 17:28:05.596  INFO 10660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 0 JDBC repository interfaces.
+2021-11-09 17:28:05.616  INFO 10660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 17:28:05.616  INFO 10660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 17:28:05.977  INFO 10660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 301 ms. Found 1 JPA repository interfaces.
+2021-11-09 17:28:07.710  INFO 10660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+2021-11-09 17:28:07.720  INFO 10660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 17:28:07.720  INFO 10660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 17:28:08.171  INFO 10660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-09 17:28:08.171  INFO 10660 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5091 ms
+2021-11-09 17:28:08.591 DEBUG 10660 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-11-09 17:28:08.591 DEBUG 10660 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-11-09 17:28:10.865  INFO 10660 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 17:28:12.422  INFO 10660 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-09 17:28:13.284  INFO 10660 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-09 17:28:13.594  INFO 10660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-09 17:28:16.695  INFO 10660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-09 17:28:16.776  INFO 10660 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-09 17:28:20.431  INFO 10660 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 17:28:20.463  INFO 10660 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 17:28:21.711 DEBUG 10660 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-09 17:28:21.861 DEBUG 10660 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-11-09 17:28:22.011 DEBUG 10660 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-09 17:28:22.051 DEBUG 10660 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-09 17:28:22.091  WARN 10660 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-09 17:28:22.361  INFO 10660 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a260e4c9-315d-4bf5-9323-62e9e1876985
+
+2021-11-09 17:28:22.601  INFO 10660 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12edc88, org.springframework.security.web.context.SecurityContextPersistenceFilter@36e6dbcb, org.springframework.security.web.header.HeaderWriterFilter@d8b7027, org.springframework.security.web.csrf.CsrfFilter@439e7ee7, org.springframework.security.web.authentication.logout.LogoutFilter@57fa9faa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@151e03a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@17849ed8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ee25dff, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@35e7fc06, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5491697f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@597fec0c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@246f83e9, org.springframework.security.web.session.SessionManagementFilter@29fb82fe, org.springframework.security.web.access.ExceptionTranslationFilter@505dc6f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34a24936]
+2021-11-09 17:28:22.722  INFO 10660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-09 17:28:22.762  INFO 10660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+2021-11-09 17:28:22.792  INFO 10660 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Started AddressBookSpringBootApplication in 21.364 seconds (JVM running for 27.905)
+2021-11-09 17:29:44.423  INFO 10660 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 17:29:44.433  INFO 10660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-09 17:29:44.513  INFO 10660 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-09 17:30:20.477  INFO 11108 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Starting AddressBookSpringBootApplication using Java 11.0.12 on DESKTOP-K529ODC with PID 11108 (I:\WebDevlopment\Angular Development\AddressBook_SpringBoot\target\classes started by Arun in I:\WebDevlopment\Angular Development\AddressBook_SpringBoot)
+2021-11-09 17:30:20.477  INFO 11108 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : The following profiles are active: DEV
+2021-11-09 17:30:20.577  INFO 11108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-09 17:30:21.654  INFO 11108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 17:30:21.654  INFO 11108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-11-09 17:30:21.694  INFO 11108 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook_springboot.Repository.AddressBookRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-11-09 17:30:21.694  INFO 11108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2021-11-09 17:30:21.714  INFO 11108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 17:30:21.714  INFO 11108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 17:30:21.753  INFO 11108 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2021-11-09 17:30:22.524  INFO 11108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+2021-11-09 17:30:22.554  INFO 11108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 17:30:22.554  INFO 11108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 17:30:22.835  INFO 11108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-09 17:30:22.835  INFO 11108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2258 ms
+2021-11-09 17:30:22.865 DEBUG 11108 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-11-09 17:30:22.865 DEBUG 11108 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-11-09 17:30:23.225  INFO 11108 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 17:30:23.305  INFO 11108 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-09 17:30:23.537  INFO 11108 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-09 17:30:23.667  INFO 11108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-09 17:30:24.118  INFO 11108 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-09 17:30:24.148  INFO 11108 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-09 17:30:25.133  INFO 11108 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 17:30:25.163  INFO 11108 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 17:30:25.836 DEBUG 11108 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-09 17:30:25.916 DEBUG 11108 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-11-09 17:30:25.966 DEBUG 11108 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-09 17:30:25.986 DEBUG 11108 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-09 17:30:26.036  WARN 11108 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-09 17:30:26.265  INFO 11108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-09 17:30:26.315  INFO 11108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+2021-11-09 17:30:26.335  INFO 11108 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Started AddressBookSpringBootApplication in 6.697 seconds (JVM running for 9.545)
+2021-11-09 20:07:01.644  WARN 11108 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h6s221ms980µs).
+2021-11-09 20:25:51.184  INFO 11108 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 20:25:52.279  INFO 11108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-09 20:25:52.479  INFO 11108 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-09 20:45:05.570  INFO 8052 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Starting AddressBookSpringBootApplication using Java 11.0.12 on DESKTOP-K529ODC with PID 8052 (I:\WebDevlopment\Angular Development\AddressBook_SpringBoot\target\classes started by Arun in I:\WebDevlopment\Angular Development\AddressBook_SpringBoot)
+2021-11-09 20:45:05.590  INFO 8052 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : The following profiles are active: DEV
+2021-11-09 20:45:05.723  INFO 8052 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-09 20:45:08.088  INFO 8052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 20:45:08.088  INFO 8052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-11-09 20:45:08.168  INFO 8052 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook_springboot.Repository.AddressBookRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-11-09 20:45:08.168  INFO 8052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 0 JDBC repository interfaces.
+2021-11-09 20:45:08.178  INFO 8052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 20:45:08.178  INFO 8052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 20:45:08.218  INFO 8052 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2021-11-09 20:45:09.322  INFO 8052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+2021-11-09 20:45:09.342  INFO 8052 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 20:45:09.342  INFO 8052 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 20:45:09.620  INFO 8052 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-09 20:45:09.620  INFO 8052 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3897 ms
+2021-11-09 20:45:09.687 DEBUG 8052 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-11-09 20:45:09.688 DEBUG 8052 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-11-09 20:45:10.184  INFO 8052 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 20:45:10.284  INFO 8052 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-09 20:45:10.574  INFO 8052 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-09 20:45:10.738  INFO 8052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-09 20:45:11.503  INFO 8052 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-09 20:45:11.543  INFO 8052 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-09 20:45:12.866  INFO 8052 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 20:45:12.876  INFO 8052 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 20:45:13.682 DEBUG 8052 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-09 20:45:13.770 DEBUG 8052 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-11-09 20:45:13.836 DEBUG 8052 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-09 20:45:13.856 DEBUG 8052 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-09 20:45:13.936  WARN 8052 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-09 20:45:14.238  INFO 8052 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-09 20:45:14.328  INFO 8052 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+2021-11-09 20:45:14.368  INFO 8052 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Started AddressBookSpringBootApplication in 11.15 seconds (JVM running for 15.5)
+2021-11-09 20:51:52.706  INFO 8052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 20:51:52.725  INFO 8052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-09 20:51:52.756  INFO 8052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-09 20:52:03.698  INFO 11796 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Starting AddressBookSpringBootApplication using Java 11.0.12 on DESKTOP-K529ODC with PID 11796 (I:\WebDevlopment\Angular Development\AddressBook_SpringBoot\target\classes started by Arun in I:\WebDevlopment\Angular Development\AddressBook_SpringBoot)
+2021-11-09 20:52:03.700  INFO 11796 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : The following profiles are active: DEV
+2021-11-09 20:52:03.824  INFO 11796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-09 20:52:05.152  INFO 11796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 20:52:05.153  INFO 11796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-11-09 20:52:05.197  INFO 11796 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook_springboot.Repository.AddressBookRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-11-09 20:52:05.198  INFO 11796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 0 JDBC repository interfaces.
+2021-11-09 20:52:05.211  INFO 11796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 20:52:05.211  INFO 11796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 20:52:05.272  INFO 11796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2021-11-09 20:52:06.382  INFO 11796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+2021-11-09 20:52:06.393  INFO 11796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 20:52:06.393  INFO 11796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 20:52:06.556  INFO 11796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-09 20:52:06.557  INFO 11796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2732 ms
+2021-11-09 20:52:06.580 DEBUG 11796 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-11-09 20:52:06.580 DEBUG 11796 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-11-09 20:52:06.783  INFO 11796 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 20:52:06.841  INFO 11796 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-09 20:52:07.011  INFO 11796 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-09 20:52:07.167  INFO 11796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-09 20:52:07.693  INFO 11796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-09 20:52:07.731  INFO 11796 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-09 20:52:08.920  INFO 11796 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 20:52:08.933  INFO 11796 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 20:52:09.495 DEBUG 11796 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-09 20:52:09.585 DEBUG 11796 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-11-09 20:52:09.652 DEBUG 11796 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-09 20:52:09.670 DEBUG 11796 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-09 20:52:09.737  WARN 11796 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-09 20:52:10.042  INFO 11796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-09 20:52:10.122  INFO 11796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+2021-11-09 20:52:10.142  INFO 11796 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Started AddressBookSpringBootApplication in 7.385 seconds (JVM running for 10.515)
+2021-11-09 20:53:58.544  INFO 11796 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 20:53:58.551  INFO 11796 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-09 20:53:58.574  INFO 11796 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-09 20:54:13.424  INFO 13036 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Starting AddressBookSpringBootApplication using Java 11.0.12 on DESKTOP-K529ODC with PID 13036 (I:\WebDevlopment\Angular Development\AddressBook_SpringBoot\target\classes started by Arun in I:\WebDevlopment\Angular Development\AddressBook_SpringBoot)
+2021-11-09 20:54:13.427  INFO 13036 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : The following profiles are active: DEV
+2021-11-09 20:54:13.527  INFO 13036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-09 20:54:14.684  INFO 13036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 20:54:14.686  INFO 13036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-11-09 20:54:14.724  INFO 13036 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.bridgelabz.addressbook_springboot.Repository.AddressBookRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-11-09 20:54:14.726  INFO 13036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 0 JDBC repository interfaces.
+2021-11-09 20:54:14.739  INFO 13036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-11-09 20:54:14.740  INFO 13036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 20:54:14.778  INFO 13036 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2021-11-09 20:54:15.716  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+2021-11-09 20:54:15.728  INFO 13036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 20:54:15.729  INFO 13036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 20:54:15.924  INFO 13036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-09 20:54:15.924  INFO 13036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2396 ms
+2021-11-09 20:54:15.946 DEBUG 13036 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-11-09 20:54:15.947 DEBUG 13036 --- [restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2021-11-09 20:54:16.186  INFO 13036 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 20:54:16.247  INFO 13036 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-09 20:54:16.397  INFO 13036 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-09 20:54:16.539  INFO 13036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-09 20:54:16.981  INFO 13036 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-09 20:54:17.010  INFO 13036 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-11-09 20:54:18.215  INFO 13036 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 20:54:18.230  INFO 13036 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 20:54:18.823 DEBUG 13036 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-11-09 20:54:18.904 DEBUG 13036 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2021-11-09 20:54:18.951 DEBUG 13036 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-11-09 20:54:18.965 DEBUG 13036 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-11-09 20:54:19.032  WARN 13036 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-11-09 20:54:19.283  INFO 13036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-09 20:54:19.331  INFO 13036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+2021-11-09 20:54:19.350  INFO 13036 --- [restartedMain] c.b.a.AddressBookSpringBootApplication   : Started AddressBookSpringBootApplication in 6.869 seconds (JVM running for 9.289)
